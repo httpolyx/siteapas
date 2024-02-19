@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&display=swap');
+
+.dowload-grid {
+  margin: 60px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column
+}
+
+.dowload-item {
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(246, 246, 246);  
+  width: 90%;
+  max-width: 825px;
+  margin-bottom: 4px;
+}
+
+.dowload-title {
+  font-size: 16px;
+  font-family: Lato, arial, sans-serif;
+  text-transform: none;
+  letter-spacing: normal;
+  overflow-wrap: break-word;
+  color: #000!important;
+}
+
+.dowload-label {
+  margin-left: 5px;
+  font-size: 13.5px;
+  font-family: Lato, arial, sans-serif;
+  text-transform: none;
+  letter-spacing: normal;
+  overflow-wrap: break-word;
+  color: rgb(130, 108, 108);
+  font-weight: bold;
+}
